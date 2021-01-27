@@ -1,4 +1,5 @@
-import os, glob
+import os
+import glob
 from setuptools import setup, Extension
 
 sources = glob.glob(os.path.join('src', '*.c'))
